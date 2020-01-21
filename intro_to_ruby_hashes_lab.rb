@@ -17,7 +17,7 @@ def monopoly_with_third_tier
   # you built in the previous method. Run the tests. They will fail, but
   # they'll guide you in how to modify what you just did to have more
   # complexity.
-  base_hash = {:railroads => {:rent_in_dollars => {hi: 1, yo: 2, hello: 3, sup: 4}, names: "Poppy"}}
+  base_hash = {:railroads => {:rent_in_dollars => {hi: 1, yo: 2, hello: 3, sup: 4}, :names => {person1: "Poppy", person2: "John", person3: "Carrot", person4: "Water"}}
 end
 
 def monopoly_with_fourth_tier
